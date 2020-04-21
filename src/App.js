@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           Now 
-          
+
           {moment().format('hh:mm:ss a')}
         </header>
         <p className="App-intro">
@@ -21,7 +21,7 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of JSX.
         </p>
         <ExampleComponent />
-        <TestComponent />
+        <TestComponent/>
       </div>
     );
   }
